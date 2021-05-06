@@ -1,20 +1,21 @@
-## Micronaut 2.5.0 Documentation
+Avaliação técnica back-end V1
 
-- [User Guide](https://docs.micronaut.io/2.5.0/guide/index.html)
-- [API Reference](https://docs.micronaut.io/2.5.0/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/2.5.0/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
+Tecnologias utilizadas: Micronaut, Java 11, JPA, Junit 5 e banco de dados embarcado H2.
 
-## Feature http-session documentation
+Para iniciar os serviços por linha de comando e digitar mvnw mn:run
+Os testes podem ser iniciados ao digitar mvnw mn:run
 
-- [Micronaut HTTP Sessions documentation](https://docs.micronaut.io/latest/guide/index.html#sessions)
+O debug do projeto pode ser feito utilizando mvnw mn:run -Dmn.debug
+Através da IDE Eclipse é possivel conectar por "Remote Java Application" na porta 5005.
 
-## Feature jdbc-hikari documentation
+Criei testes unitários apenas do endpoint principal que é o SicrediServiceEndpoint, nele estão os micro serviços solicitados na avaliação.
 
-- [Micronaut Hikari JDBC Connection Pool documentation](https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#jdbc)
+Também criei testes utilizando o Postman para facilitar o debug do código, a coleção esta na raiz do projeto com o nome Sicredi.postman_collection.json.
 
-## Feature http-client documentation
+Optei por fazer contabilização dos votos logo após o fim do tempo estabelecido da sessão.
 
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+Fiz a tarefa bonus 1 mas infelizmente não tive tempo de fazer a segunda. Fiz o teste de performance utilizando o próprio Runner do Postman e acredito que esta bastante satisfatório.
 
+Para o versionamento do código eu utilizo o fluxo do Gitflow!
+
+Achei a avaliação muito interessante. Agradeço a oportunidade e aguardo retorno!

@@ -3,6 +3,7 @@ Avaliação técnica back-end V1
 Tecnologias utilizadas: Micronaut, Java 11, JPA, Junit 5 e banco de dados embarcado H2.
 
 Para iniciar os serviços por linha de comando e digitar mvnw mn:run
+
 Os testes podem ser iniciados ao digitar mvnw test
 
 O debug do projeto pode ser feito utilizando mvnw mn:run -Dmn.debug

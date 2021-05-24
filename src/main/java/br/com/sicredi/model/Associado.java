@@ -12,6 +12,8 @@ public class Associado extends EntidadeBase {
 	
 	private String nome;
 	
+	private Boolean ableToVote;
+	
 
 	public String getCpf() {
 		return cpf;
@@ -27,6 +29,14 @@ public class Associado extends EntidadeBase {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public Boolean isAbleToVote() {
+		return ableToVote;
+	}
+
+	public void setAbleToVote(Boolean ableToVote) {
+		this.ableToVote = ableToVote;
 	}
 	
 }

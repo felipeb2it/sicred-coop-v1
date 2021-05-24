@@ -71,17 +71,4 @@ public class SicredEndpointTest {
         Assertions.assertEquals(200, response.code()); 
     }
     
-    @Test
-    @Order(3)
-    void testVotacaoResponse() {
-    	Long idPauta = sicredService.listPautas().get(0).getId();
-    	String cpf = sicredService.listAssociados().get(0).getCpf();
-    	String voto = "Sim";
-    	VotoCooperadoDTO votoCoop = new VotoCooperadoDTO(idPauta, cpf, voto);
-    	
-    	HttpResponse<Object> response = client.toBlocking().exchange(HttpRequest.POST("/api/votos", votoCoop));
-    	
-        Assertions.assertEquals(200, response.code()); 
-    }
-    
 }

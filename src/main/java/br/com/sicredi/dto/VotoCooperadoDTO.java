@@ -1,6 +1,6 @@
 package br.com.sicredi.dto;
 
-import edu.umd.cs.findbugs.annotations.NonNull;
+import io.micronaut.core.annotation.NonNull;
 
 public class VotoCooperadoDTO {
 	
